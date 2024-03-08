@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Funny Physics App</string>
+    <string name="more">More</string>
+    <string name="core_text">The nucleus of an atom contains the subatomic parts known as protons and neutrons. The electron can be found in orbitals</string>
+    <string name="scientist_text">A physicist is a scientist who specify in the field of physics, which surrounds the interactions of matter and energy.</string>
+    <string name="formulas_text">A formula performs sums or other actions on the data in your worksheet. A formula always starts with an equal sign.</string>
+    <string name="planets_text">The planets can be describe by their force fields: gravity and their magnetic fields, which are studied through geophysics.</string>
+</resources>
