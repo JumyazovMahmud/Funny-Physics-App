@@ -17,6 +17,7 @@ import java.util.List;
 
 public class ScientistAdapter extends RecyclerView.Adapter<ScientistAdapter.ViewHolder> {
     private List<Scientist> scientists;
+
     @NonNull
     @Override
     public ScientistAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -38,9 +39,10 @@ public class ScientistAdapter extends RecyclerView.Adapter<ScientistAdapter.View
         return scientists.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView vh_photo;
         TextView vh_name, vh_bio;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             vh_photo = itemView.findViewById(R.id.scientist_photo);

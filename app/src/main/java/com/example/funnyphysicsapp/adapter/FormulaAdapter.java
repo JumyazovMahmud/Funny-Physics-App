@@ -40,8 +40,9 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaAdapter.ViewHold
         return formulas.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView vh_formula, vh_info;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             vh_formula = itemView.findViewById(R.id.formula);

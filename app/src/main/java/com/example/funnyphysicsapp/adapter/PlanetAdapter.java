@@ -41,8 +41,9 @@ public class PlanetAdapter extends RecyclerView.Adapter<PlanetAdapter.ViewHolder
         return planets.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
-        TextView vh_name, vh_info , vh_planet_color;
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView vh_name, vh_info, vh_planet_color;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             vh_planet_color = itemView.findViewById(R.id.color);

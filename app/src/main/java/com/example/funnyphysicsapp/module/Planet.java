@@ -18,6 +18,7 @@ public class Planet {
         this.info = info;
         this.planetColor = planetColor;
     }
+
     public String getName() {
         return name;
     }
