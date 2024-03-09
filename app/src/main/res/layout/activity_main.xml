@@ -78,17 +78,6 @@
                     android:layout_marginStart="3dp"/>
 
 
-<!--                <Button-->
-<!--                    android:id="@+id/planets_btn"-->
-<!--                    android:layout_width="60dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="@string/more"-->
-<!--                    android:backgroundTint="#13265a"-->
-<!--                    android:layout_below="@id/planets"-->
-<!--                    android:layout_marginTop="210dp"-->
-<!--                    android:padding="0dp"-->
-<!--                    android:layout_marginStart="3dp"-->
-<!--                    android:textSize="16sp" />-->
 
             </androidx.cardview.widget.CardView>
 
@@ -162,7 +151,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="8dp"
                 android:backgroundTint="#EDE9E9"
-                android:id="@+id/cardView3"
+                android:id="@+id/cardView2"
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:clickable="true"
@@ -212,7 +201,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView4"
+                android:id="@+id/cardView3"
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:backgroundTint="#EDE9E9"
