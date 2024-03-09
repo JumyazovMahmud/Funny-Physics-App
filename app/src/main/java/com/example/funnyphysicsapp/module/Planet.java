@@ -13,7 +13,7 @@ public class Planet {
 
     }
 
-    public Planet(Integer planetId, String name, String info, String planetColor) {
+    public Planet(String name, String info, String planetColor) {
         this.name = name;
         this.info = info;
         this.planetColor = planetColor;

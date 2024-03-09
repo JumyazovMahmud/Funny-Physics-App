@@ -16,7 +16,12 @@ import com.example.funnyphysicsapp.module.Scientist;
 import java.util.List;
 
 public class ScientistAdapter extends RecyclerView.Adapter<ScientistAdapter.ViewHolder> {
-    private List<Scientist> scientists;
+    private List<Scientist> scientistList;
+
+
+    public ScientistAdapter(List<Scientist> scientistList){
+        this.scientistList = scientistList;
+    }
 
     @NonNull
     @Override
@@ -28,7 +33,7 @@ public class ScientistAdapter extends RecyclerView.Adapter<ScientistAdapter.View
     @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull ScientistAdapter.ViewHolder holder, int position) {
-        Scientist scientist = scientists.get(position);
+        Scientist scientist = scientistList.get(position);
         holder.vh_photo.setImageResource(scientist.getImageId());
         holder.vh_name.setText(scientist.getName());
         holder.vh_bio.setText(scientist.getBio());
@@ -36,7 +41,7 @@ public class ScientistAdapter extends RecyclerView.Adapter<ScientistAdapter.View
 
     @Override
     public int getItemCount() {
-        return scientists.size();
+        return scientistList.size();
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

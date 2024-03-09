@@ -5,7 +5,7 @@ public class Formula {
     private String info;
     public Formula() {
     }
-    public Formula(Integer formulaId, String formula, String info, Integer scientistId) {
+    public Formula(String formula, String info) {
         this.formula = formula;
         this.info = info;
     }

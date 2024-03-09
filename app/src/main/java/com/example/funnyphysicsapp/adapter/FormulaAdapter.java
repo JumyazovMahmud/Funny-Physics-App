@@ -20,6 +20,10 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaAdapter.ViewHold
 
     private List<Formula> formulas;
 
+    public FormulaAdapter(List<Formula> formulas) {
+        this.formulas = formulas;
+    }
+
     @NonNull
     @Override
     public FormulaAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

@@ -10,10 +10,9 @@ public class Scientist {
 
     private String bio;
 
-    public Scientist() {
-    }
 
-    public Scientist(Integer imageId, String name, String bio, List<Formula> formulas) {
+
+    public Scientist(Integer imageId, String name, String bio) {
         this.imageId = imageId;
         this.name = name;
         this.bio = bio;

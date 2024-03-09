@@ -20,6 +20,10 @@ public class PlanetAdapter extends RecyclerView.Adapter<PlanetAdapter.ViewHolder
 
     private List<Planet> planets;
 
+    public PlanetAdapter(List<Planet> planets) {
+        this.planets = planets;
+    }
+
     @NonNull
     @Override
     public PlanetAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
